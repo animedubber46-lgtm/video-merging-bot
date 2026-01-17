@@ -1,0 +1,7 @@
+build:
+  buildpacks:
+    - heroku/python
+    - https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git
+
+run:
+  worker: python main.py
